@@ -9,6 +9,10 @@ console.log(undefined == 0); // false
 console.log(undefined > 0); // false
 console.log(undefined < 0); // false
 
+console.log(Number(1)==Number(1)); // true
+console.log(new Number(1)== new Number(1)); // false
+console.log(String(1)==String(1)); // true
+console.log(new String(1)== new String(1)); // false
 
 // Strict chec k , ===
 console.log("12"===12); // false , ( type check)
